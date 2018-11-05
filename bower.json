@@ -1,0 +1,18 @@
+{
+  "name": "ngjs-intl-tel-input",
+  "description": "angularjs-intl-tel-input",
+  "main": "ngjs-intl-tel-input.js",
+  "license": "MIT",
+  "homepage": "http://google.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "intl-tel-input": "^14.0.4",
+    "angular": ">1.3.0"
+  }
+}
