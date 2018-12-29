@@ -15,7 +15,7 @@
                 var input = document.querySelector("#drphone");
 
                 // initialise plugin
-                scope.options.utilsScript = '//cdnjs.cloudflare.com/ajax/libs/intl-tel-input/14.0.4/js/utils.js';
+                scope.options.utilsScript = './utils.js';
                 var iti = window.intlTelInput(input, scope.options);
 
                 input.addEventListener('change', function () {
